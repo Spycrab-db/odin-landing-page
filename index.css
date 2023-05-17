@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul{
     list-style-type: none;
+    padding: 0;
 }
 
 .logo{
@@ -12,9 +14,10 @@ ul{
     font-size: 24px;
     color: #F9FAF8;
 }
+
 header, .intro{
     background-color: #1F2937;
-    padding: 1rem 10rem 4rem 10rem;
+    padding: 1rem 8rem 4rem 8rem;
     color: white;
 }
 
@@ -30,8 +33,9 @@ header ul div{
 }
 
 .intro{
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .intro-content{
@@ -41,10 +45,12 @@ header ul div{
 .intro img{
     display: block;
     width: 40%;
+    border-radius: 2rem;
 }
 
 .intro h1{
     font-size: 48px;
+    margin-top: 0;
 }
 
 .intro div p{
@@ -85,4 +91,27 @@ header ul div{
 .information img{
     width: 100%;
     border-radius: 2rem;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 5rem 0;
+}
+
+.quote{
+    width: 50%
+}
+
+#quote-content{
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quote-author{
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
 }
