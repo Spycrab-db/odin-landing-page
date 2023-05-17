@@ -9,8 +9,22 @@ ul{
 
 .logo{
     font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 header, .intro{
     background-color: #1F2937;
+    padding: 1rem 10rem 4rem 10rem;
     color: white;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul div{
+    display: flex;
+    gap: 1rem;
+    color: #a8a8a8
 }
