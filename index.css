@@ -115,3 +115,39 @@ header ul div{
     text-align: right;
     font-weight: bold;
 }
+
+.call-action{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 3rem;
+}
+
+.call-action>div{
+    background-color:#3b82f6;
+    padding: 2.5rem 6rem;
+    width: 65%;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-action h2, .call-action p{
+    margin-top: 0;
+    margin-bottom: .3rem;
+}
+
+.action-button{
+    display: flex;
+    align-items: center;
+}
+
+.action-button button{
+    color: white;
+    background-color: #3b82f6;
+    padding: .3rem 1.7rem;
+    border: solid white;
+    border-radius: .3rem;
+    font-weight: bold;
+}
