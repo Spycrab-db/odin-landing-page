@@ -28,3 +28,34 @@ header ul div{
     gap: 1rem;
     color: #a8a8a8
 }
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-content{
+    width: 40%;
+}
+
+.intro img{
+    display: block;
+    width: 40%;
+}
+
+.intro h1{
+    font-size: 48px;
+}
+
+.intro div p{
+    font-size: 1.1rem;
+}
+
+.intro button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+}
